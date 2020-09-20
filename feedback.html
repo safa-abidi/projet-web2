@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel | Feedback</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--the header navbar and logo-->
+    <header>
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a class="logo" href="home.html">
+                <span class="nav__link">Hotel</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="home.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="feedback.html" class="nav__link">Feedback</a></li>
+                    <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+                </ul>
+                <ul class="nav__list ">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--booking form-->
+    <section class="row container">
+        <div class="form feedback">
+            <h2></h2>
+            <form action="" method="GET">
+                <label for="title" class="section-title">Your message</label><br>
+                <textarea id="title" rows="7" cols="35" placeholder="Please tell us what you think..."></textarea>
+
+                <input class="btn" type="submit" value="Send">
+
+            </form>
+        </div>
+        <div class="form_img">
+            <img src="pics/undraw_Letter.svg" alt="">
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="container row">
+
+            <div class="footer_column">
+                Contact Us:
+                <div>Adress: Tunis, Tunisia</div>
+                <div>Phone Number: +10055555555</div>
+                <div>Email: hotel@hotel.com</div>
+            </div>
+
+            <div class="footer_column">
+                Follow Us:
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="pics/facebook.svg"
+                            class="social_icons"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="pics/instagram.svg"
+                            class="social_icons"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="pics/pinterest.svg"
+                            class="social_icons"></a>
+                </div>
+            </div>
+
+            <div class="footer_column">
+                &copy; 2020. All Rights Reserved.
+            </div>
+
+
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
